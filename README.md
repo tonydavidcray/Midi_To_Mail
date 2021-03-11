@@ -1,4 +1,4 @@
-# Midi_To_Mail
+# Midi To Mail
 Reaper and NodeJS tool to send an email when Reaper detects an Audio Dropout. 
 
 In the complex world of digital audio, there are times where thorough testing is required of many interconnected devices to ensure a reliable system has been created. One basic test is a burn-in, where live inputs are recorded to ensure consistent signals are recieved. Effective monitoring of this test is challenging due to the long frame often involved. Here are two simple tools to assist with this task.
