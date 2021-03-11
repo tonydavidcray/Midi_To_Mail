@@ -10,12 +10,15 @@ In the complex world of digital audio, there are times where thorough testing is
 ## Reaper
 An input track is created and the desired test audio input is selected. This track is recorded for later analysis. A post fade send of this track is sent to a Detector Track that has a tone generator instansiated and is connected to the Left Aux input of a JS Gate. This gate is configured to be inverted so it opens and allows the tone to come through when the live audio input drops out. The JS Gate plug is set to send a Midi Note out when the gate passes its threshold.
 
+![Reaper SS](https://user-images.githubusercontent.com/44496093/110736698-3b76d380-8280-11eb-95a0-ef50f0d8bcfa.png)
+
+
 ## NodeJS
 * Install NodeJS using your OS's download from the NodeJS site. 
 * Install npm ( if not done so via the above NodeJS installer
 * Install the dependant packages defined in the "app.js" header
 * Fill in your GMail account details in the **sendGmail()** function.
-* In the terminal, cd to the MidiToMail directory and run "node app.js"
+* In the terminal, cd to the MidiToMail directory and run "node app.js" (anytime you start or stop the NodeJS Script you will need to "Refresh All Midi Devices" in the Reaper Preferences.
 
 Reaper needs to now have the "Midi To Mail" Midi device enabled in the preferences, then the Detector track needs its Midi Hardware output in teh "I/O" section set to this device. 
 
