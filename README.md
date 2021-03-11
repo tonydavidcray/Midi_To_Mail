@@ -10,7 +10,7 @@ In the complex world of digital audio, there are times where thorough testing is
 ## Reaper
 An input track is created and the desired test audio input is selected. This track is recorded for later analysis. A post fade send of this track is sent to a Detector Track that has a tone generator instansiated and is connected to the Left Aux input of a JS Gate. This gate is configured to be inverted so it opens and allows the tone to come through when the live audio input drops out. The JS Gate plug is set to send a Midi Note out when the gate passes its threshold.
 
-# NodeJS
+## NodeJS
 * Install NodeJS using your OS's download from the NodeJS site. 
 * Install npm ( if not done so via the above NodeJS installer
 * Install the dependant packages defined in the "app.js" header
