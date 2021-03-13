@@ -16,7 +16,6 @@ An input track is created and the desired test audio input is selected. This tra
 ## NodeJS
 * Install NodeJS using your OS's download from the NodeJS site. 
 * Install npm ( if not done so via the above NodeJS installer
-* Install the dependant packages defined in the "app.js" header
 * Fill in your GMail account details in the **sendGmail()** function.
 * In the terminal, cd to the MidiToMail directory and run "node app.js" (anytime you start or stop the NodeJS Script you will need to "Refresh All Midi Devices" in the Reaper Preferences.
 
